@@ -1,0 +1,39 @@
+# Основные зависимости для работы с видео и аудио
+certifi==2024.12.14
+charset-normalizer==3.4.1
+colorama==0.4.6
+decorator==4.4.2
+idna==3.10
+imageio==2.36.1
+imageio-ffmpeg==0.5.1
+moviepy==1.0.3
+numpy==2.2.1
+pillow==10.4.0
+proglog==0.1.10
+python-dotenv==1.0.1
+requests==2.32.3
+setuptools==75.8.0
+tqdm==4.67.1
+urllib3==2.3.0
+tk  # Если используете Linux, может потребоваться установить python3-tk
+SpeechRecognition==3.10.0
+pydub==0.25.1
+PyAudio==0.2.13
+
+# Для установки зависимостей выполните:
+# cd C:\DZ\AudioExtractor
+# C:\DZ\myenv\Scripts\activate
+# pip install -r requirements.txt
+
+# Также необходим FFmpeg для Windows:
+# 1. Скачайте FFmpeg с https://www.gyan.dev/ffmpeg/builds/ (версия ffmpeg-git-full.7z)
+# 2. Распакуйте архив
+# 3. Добавьте путь к bin папке FFmpeg в системные переменные PATH
+#    (например, C:\Program Files\ffmpeg\bin)
+
+# Дополнительные требования:
+# 1. PyAudio для работы с аудио (установка в Windows: pip install pipwin && pipwin install pyaudio)
+
+# Дополнительные системные требования:
+# 1. FFmpeg - скачайте с https://www.gyan.dev/ffmpeg/builds/
+# 2. PyAudio - установите отдельно через wheel-файл с https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio 

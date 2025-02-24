@@ -19,6 +19,7 @@ tk  # Если используете Linux, может потребоватьс
 SpeechRecognition==3.10.0
 pydub==0.25.1
 PyAudio==0.2.13
+yt-dlp>=2023.12.30
 
 # Для установки зависимостей выполните:
 # cd C:\DZ\AudioExtractor

@@ -97,7 +97,6 @@ def format_text(text):
     
     # Добавляем заголовок
     formatted_text = "ТРАНСКРИПЦИЯ АУДИО\n"
-    formatted_text += "=" * 50 + "\n\n"
     
     # Настройки форматирования
     max_line_length = 120 # максимальная длина строки
@@ -139,7 +138,6 @@ def format_text(text):
     formatted_text += '\n\n'.join(paragraphs)
     
     # Добавляем статистику
-    formatted_text += f"\n\n{'=' * 50}\n"
     formatted_text += f"Количество строк: {sum(len(p.split('\n')) for p in paragraphs)}\n"
     formatted_text += f"Количество слов: {len(words)}\n"
     formatted_text += f"Количество символов: {len(text)}\n"
